@@ -53,7 +53,7 @@ function Cards() {
                             src = "https://raw.githubusercontent.com/sanguvk123/portfolio/master/public/images/img-7.jpg"
                             text = "Project 7 Name"
                             label = "Project7 type"
-                            path = '/details'
+                            path = "<Details/>"
                         />
                         <CardItem 
                             src = "https://raw.githubusercontent.com/sanguvk123/portfolio/master/public/images/img-8.jpg"

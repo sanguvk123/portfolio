@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 import { Button } from './Button';
 import './Navbar.css';
 
+import About from './pages/About';
+import Projects from './pages/Projects';
+import Home from './pages/Home';
+
 function Navbar() {
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
@@ -39,12 +43,12 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to='/' className = "nav-links" onClick={closeMobileMenu}>
+              <Link to='/about' className = "nav-links" onClick={closeMobileMenu}>
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link to='/' className = "nav-links" onClick={closeMobileMenu}>
+              <Link to="/projects" className = "nav-links" onClick={closeMobileMenu}>
                 Projects
               </Link>
             </li>
