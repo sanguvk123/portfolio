@@ -20,7 +20,6 @@ function App() {
         <Route path='/projects' exact component = { Projects } />
         <Route path='/about' exact component = { About } />
       </Switch>
-      <Footer />
     </Router>
     </>
   );
