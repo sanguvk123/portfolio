@@ -1,0 +1,30 @@
+.skill_set{
+    height: 400px;
+    width: 600px;
+    position: relative;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 820px){
+    .skill_set{
+        height: 300px;
+        width: 400px;
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 820px){
+    .skill_set{
+        height: 260px;
+        width: 350px;
+        position: relative;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .skill_set{
+        height: 300px;
+        width: 400px;
+        position: relative;
+    }
+}
