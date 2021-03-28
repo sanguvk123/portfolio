@@ -13,7 +13,7 @@ function Cards() {
                             src = "https://raw.githubusercontent.com/sanguvk123/portfolio/master/public/images/img-1.jpg"
                             text = "Project 1 Name"
                             label = "Project1 type"
-                            path = '/details'
+                            path = "/details"
                         />
                         <CardItem 
                             src = "https://raw.githubusercontent.com/sanguvk123/portfolio/master/public/images/img-2.jpg"

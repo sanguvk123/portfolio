@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
 
-export default function Details() {
-    return <h1 className="details">Details</h1>
+export default function Details(props) {
+    return <h1 className="details">Details {props.text}</h1>
 }
